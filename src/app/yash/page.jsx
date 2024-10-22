@@ -1,13 +1,15 @@
 // "use client";
 
 export const metadata = {
-    title: "Yash na raaj ma, market maja maa"
-}
+  title: "Yash na raaj ma, market maja maa",
+};
 
-export default function(){
-    return (
-        <>
-            <p>Hello World</p>
-        </>
-    )
-}
+const Yash = () => {
+  return (
+    <>
+      <p>Hello World</p>
+    </>
+  );
+};
+
+export default Yash;
